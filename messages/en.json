@@ -1,0 +1,77 @@
+{
+  "Metadata": {
+    "common": {
+      "applicationName": "Hodl Me Please",
+      "keywords": "montáž, technická montáž, montážní práce, montážní služby, montážní firma, montážní technik, montážní techniky, montážní technika",
+      "authors": "Hodl Me Please",
+      "publisher": "Hodl Me Please"
+    },
+    "homepage": {
+      "title": "Hodl Me Please",
+      "description": "Hodl Me Please - hodl the frog"
+    }
+  },
+  "Header": {
+    "buy": "buy",
+    "socials": "socials"
+  },
+  "CardSection": {
+    "title": "Basic Info About Us",
+    "card": {
+      "one": {
+        "title": "Liguidity Pool Burned",
+        "description": "We have burned the LP to warm the frog"
+      },
+      "two": {
+        "title": "Supply",
+        "description": "We have 1B hugs"
+      },
+      "three": {
+        "title": "Zero Tax",
+        "description": "Hugs are tax free"
+      }
+    }
+  },
+  "PageSection": {
+    "title": "FROG NEEDS HUGS TOO",
+    "one": {
+      "title": "Frog is looking for frens",
+      "paragraph": {
+        "one": "Frog needs frens",
+        "two": "Frog needs hugs",
+        "three": "Frog needs you",
+        "four": "Frog needs you to hodl",
+        "five": "Share the love with your frens",
+        "six": "Hodl the frog"
+      }
+    },
+    "two": {
+      "title": "Follow the frog",
+      "paragraph": {
+        "one": "Frog is life",
+        "two": "Frog is the way",
+        "three": "Frog is the future",
+        "four": "Frog is the past",
+        "five": "Frog is the present",
+        "six": "Frog is the answer"
+      }
+    }
+  },
+  "Footer": {
+    "brandName": "Hodl Me Please",
+    "tagline": "Frog is Love, Frog is Life",
+    "nav": {
+      "choose": "Vybrat si",
+      "howItWorks": "Jak to funguje",
+      "forPartners": "Pro partnery",
+      "contacts": "Kontakty"
+    },
+    "socialMedia": {
+      "facebookUrl": "https://facebook.com",
+      "instagramUrl": "https://instagram.com",
+      "twitterUrl": "https://twitter.com"
+    },
+    "poweredBy": "Powered by the frog",
+    "copyright": "Copyright ©2024 Hodl Me Please"
+  }
+}

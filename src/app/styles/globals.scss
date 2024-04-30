@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-green-light;
+}
+
+.text-display {
+  @apply text-8xl lg:text-10xl;
+}
+
+.text-h1 {
+  @apply text-9xl lg:text-7xl;
+}
+
+.text-h2 {
+  @apply text-7xl lg:text-6xl;
+}
+
+.text-h3 {
+  @apply text-6xl lg:text-5xl;
+}
+
+.text-h4 {
+  @apply text-5xl lg:text-4xl;
+}
+
+.text-body {
+  @apply text-base lg:text-lg;
+}
+
+.text-caption {
+  @apply text-sm lg:text-base;
+}
+
+.bg-gradient-primary {
+  @apply bg-gradient-to-r from-purple to-violet;
+}
+
+.bg-gradient-secondary {
+  @apply bg-gradient-to-r from-red to-yellow;
+}
+
+//Button
+.button {
+  &-primary {
+    @apply bg-gradient-primary;
+
+    > span:first-child {
+      @apply bg-transparent flex items-center justify-center px-4 rounded-full;
+
+      > span {
+        @apply bg-gradient-primary;
+      }
+      > span:first-child {
+        @apply text-white;
+      }
+    }
+  }
+
+  &-secondary {
+    @apply bg-gradient-secondary;
+
+    > span:first-child {
+      @apply bg-white flex items-center justify-center px-4 rounded-full;
+
+      > span {
+        @apply bg-gradient-secondary;
+      }
+      > span:first-child {
+        @apply bg-clip-text text-transparent;
+      }
+    }
+  }
+}
