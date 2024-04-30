@@ -70,19 +70,16 @@ export default function Index({
                 <Card
                   title={t("CardSection.card.one.title")}
                   description={t("CardSection.card.one.description")}
-                  bgColor={"green-dark"}
                   icon={"/images/fire.svg"}
                 />
                 <Card
                   title={t("CardSection.card.two.title")}
                   description={t("CardSection.card.two.description")}
-                  bgColor={"green-dark"}
                   icon={"/images/supply.svg"}
                 />
                 <Card
                   title={t("CardSection.card.three.title")}
                   description={t("CardSection.card.three.description")}
-                  bgColor={"green-dark"}
                   icon={"/images/tax.svg"}
                 />
               </div>
