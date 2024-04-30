@@ -12,8 +12,8 @@
     }
   },
   "Header": {
-    "buy": "buy",
-    "socials": "socials"
+    "telegram": "Telegram",
+    "x": "X"
   },
   "CardSection": {
     "title": "Basic Info About Us",

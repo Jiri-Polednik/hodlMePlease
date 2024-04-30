@@ -68,12 +68,25 @@ export default function Header() {
         }`}
       >
         <nav className="bg-green-dark h-full overflow-y-auto flex flex-col items-center justify-center text-gray-light mt-12 gap-4">
-          <Link href="/buy" className="text-body cursor-pointer">
-            <p>{t("buy")}</p>
-          </Link>
-          <Link href="/socials" className="text-body cursor-pointer">
-            <p>{t("socials")}</p>
-          </Link>
+          <div className={"justify-end w-full flex px-16"}>
+            <p className={"my-auto px-4"}>{t("telegram")}</p>
+            <Image
+              src={"/images/telegram.svg"}
+              alt={"Telegram Logo"}
+              height={40}
+              width={40}
+            />
+          </div>
+
+          <div className={"justify-end w-full flex px-16"}>
+            <p className={"my-auto px-4"}>{t("x")}</p>
+            <Image
+              src={"/images/x.svg"}
+              alt={"X Logo"}
+              height={40}
+              width={40}
+            />
+          </div>
         </nav>
       </div>
       {/* Spacer for the header to prevent content from being hidden behind it */}
