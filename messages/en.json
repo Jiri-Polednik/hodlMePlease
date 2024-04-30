@@ -46,31 +46,14 @@
       }
     },
     "two": {
-      "title": "Follow the frog",
       "paragraph": {
-        "one": "Frog is life",
-        "two": "Frog is the way",
-        "three": "Frog is the future",
-        "four": "Frog is the past",
-        "five": "Frog is the present",
-        "six": "Frog is the answer"
+        "one": "CA: 8qxqSjzfSgZ4x31eGhjYaMwZHNS6avA3BZYnKj3TiAYt"
       }
     }
   },
   "Footer": {
     "brandName": "Hodl Me Please",
     "tagline": "Frog is Love, Frog is Life",
-    "nav": {
-      "choose": "Vybrat si",
-      "howItWorks": "Jak to funguje",
-      "forPartners": "Pro partnery",
-      "contacts": "Kontakty"
-    },
-    "socialMedia": {
-      "facebookUrl": "https://facebook.com",
-      "instagramUrl": "https://instagram.com",
-      "twitterUrl": "https://twitter.com"
-    },
     "poweredBy": "Powered by the frog",
     "copyright": "Copyright ©2024 Hodl Me Please"
   }

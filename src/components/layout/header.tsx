@@ -29,21 +29,49 @@ export default function Header() {
           <div className="flex justify-between">
             <nav className="hidden lg:flex gap-16 2xl:gap-10 sm:w-full sm:h-full text-6xl items-center">
               <div className={"justify-center w-full flex"}>
-                <Image
-                  src={"/images/telegram.svg"}
-                  alt={"Telegram Logo"}
-                  height={40}
-                  width={40}
-                />
+                <a
+                  href={"https://t.me/hodlmepleasesol"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={"/images/telegram.svg"}
+                    alt={"Telegram Logo"}
+                    height={40}
+                    width={40}
+                  />
+                </a>
               </div>
 
               <div className={"justify-center w-full flex"}>
-                <Image
-                  src={"/images/x.svg"}
-                  alt={"X Logo"}
-                  height={40}
-                  width={40}
-                />
+                <a
+                  href={"https://twitter.com/HodlMePleaseSol"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={"/images/x.svg"}
+                    alt={"X Logo"}
+                    height={40}
+                    width={40}
+                  />
+                </a>
+              </div>
+              <div className={"justify-center w-full flex"}>
+                <a
+                  href={
+                    "https://solscan.io/token/8qxqSjzfSgZ4x31eGhjYaMwZHNS6avA3BZYnKj3TiAYt"
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={"/images/solana.svg"}
+                    alt={"X Logo"}
+                    height={40}
+                    width={40}
+                  />
+                </a>
               </div>
             </nav>
             <div className="lg:hidden flex items-center justify-end my-auto">

@@ -15,7 +15,7 @@ const Footer = () => {
 
         <div className="flex gap-4">
           <a
-            href="https://telegram.com"
+            href="https://t.me/hodlmepleasesol"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-1"
@@ -28,12 +28,25 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://twitter.com/HodlMePleaseSol"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-1"
           >
             <Image src={"/images/x.svg"} alt={"X"} width={25} height={25} />
+          </a>
+          <a
+            href="https://solscan.io/token/8qxqSjzfSgZ4x31eGhjYaMwZHNS6avA3BZYnKj3TiAYt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-1"
+          >
+            <Image
+              src={"/images/solana.svg"}
+              alt={"X"}
+              width={25}
+              height={25}
+            />
           </a>
         </div>
       </div>

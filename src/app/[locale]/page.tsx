@@ -42,7 +42,7 @@ export default function Index({
               <p className="text-gray-dark pt-5 text-opacity-75">
                 {t("PageSection.one.paragraph.one")}
               </p>
-              <p className="text-gray-dark pt-5 text-opacity-75">
+              <p className="text-gray-dark text-opacity-75">
                 {t("PageSection.one.paragraph.two")}
               </p>
               <p className="text-gray-dark text-opacity-75">
@@ -87,6 +87,14 @@ export default function Index({
           </div>
         }
         darkBackground={true}
+      />
+
+      <PageSection
+        content={
+          <div className={"flex justify-center py-12"}>
+            <p className={"text-6xl"}>{t("PageSection.two.paragraph.one")}</p>
+          </div>
+        }
       />
     </div>
   );
