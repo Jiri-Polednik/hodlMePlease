@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import Button from "@components/ui/button";
 
 export default function Header() {
   const t = useTranslations("Header");
