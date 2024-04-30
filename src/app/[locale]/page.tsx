@@ -1,7 +1,7 @@
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import "@styles/globals.scss";
 import { Metadata } from "next";
-import { useMessages, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import TextContent from "@components/textContent";
 import PageSection from "@components/pageSection";
 import Card from "@components/ui/card";
