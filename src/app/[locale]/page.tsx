@@ -6,7 +6,6 @@ import TextContent from "@components/textContent";
 import PageSection from "@components/pageSection";
 import Card from "@components/ui/card";
 import React from "react";
-import Image from "next/image";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Metadata");
@@ -23,7 +22,6 @@ export default function Index({
 }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations();
-  const messages = useMessages();
 
   return (
     <div>
@@ -33,7 +31,7 @@ export default function Index({
           <div>
             <img
               className={"lg:w-3/4 m-auto"}
-              src={"/images/logo" + ".png"}
+              src={"/images/logo.png"}
               alt={"Image 1"}
             />
           </div>
