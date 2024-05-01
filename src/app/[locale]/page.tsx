@@ -91,8 +91,11 @@ export default function Index({
 
       <PageSection
         content={
-          <div className={"flex justify-center py-12"}>
-            <p className={"text-6xl"}>{t("PageSection.two.paragraph.one")}</p>
+          <div className="flex justify-center py-12">
+            <p className="text-6xl">{t("PageSection.two.paragraph.one")}</p>
+            <p className="text-6xl break-all">
+              {t("PageSection.two.paragraph.two")}
+            </p>
           </div>
         }
       />
